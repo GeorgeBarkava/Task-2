@@ -1,4 +1,9 @@
-.desktop {
+. {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   width: 1440px;
   height: 900px;
   background-color: #0d192c;
@@ -8,97 +13,120 @@
 }
 
 .Group5 {
-  background-color: #15263f;
   width: 350px;
   height: 596px;
+  background-color: #15263f;
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
-.Group5:hover {
-  background-color: yellow;
-}
-
-.Group5 img {
+.Equi {
   width: 302px;
   height: 302px;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .Group5 h1 {
-  display: block;
-  font-size: 22px;
   font-family: Outfit;
   font-weight: 600;
-  color: #ffffff;
-  line-height: 26px;
+  font-size: 22px;
+  line-height: 27.72px;
   letter-spacing: 1px;
-  text-align: center;
+  width: 302px;
+  color: #ffffff;
+  margin-bottom: ;
 }
 
 .Group5 p {
-  color: #8bacd9;
   font-family: Outfit;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
   letter-spacing: 1px;
-  text-align: center;
+  width: 302px;
+  color: #8bacd9;
 }
 
-.Group4 {
+.Textbox {
   width: 301px;
   height: 20px;
 }
 
-.Group3 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.Group3 h1 {
-  font-family: Outfit;
-  font-weight: bold;
+.Textbox h1 {
+  width: 75px;
+  height: 20px;
+  display: inline;
   font-weight: 600;
+  font-family: Outfit;
   font-size: 16px;
   line-height: 20.16px;
   letter-spacing: 1px;
+  font-weight: bold;
   color: #00fff8;
 }
 
-.Group3 p {
+.Textbox p {
+  width: 301px;
+  display: inline;
+  color: #8bacd9;
   font-family: Outfit;
   font-weight: 400;
   font-size: 16px;
   line-height: 20.16px;
   letter-spacing: 1px;
+}
+
+.Etherium {
+  width: 11px;
+  height: 18px;
+  color: #00fff8;
+}
+
+.Clock {
+  width: 13.33px;
+  height: 13.33px;
   color: #8bacd9;
 }
 
-.Group3 img {
-  width: 16px;
-  height: 16px;
-  margin: 0;
-}
-
 .Rectangle {
+  margin-top: 25px;
+  background-color: #2e405a;
   width: 302px;
   height: 1px;
-  background-color: #2e405a;
 }
 
-.Group2 {
+.Bottom {
   width: 230px;
   height: 33px;
 }
 
-.Group2 img {
+.Bottom p {
+  display: inline;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Outfit;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  color: #8bacd9;
+}
+
+.Bottom h1 {
+  display: inline;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Outfit;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.Oval {
   width: 33px;
   height: 33px;
   border: 1px;
+  border-color: #ffffff;
 }
