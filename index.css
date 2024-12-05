@@ -25,6 +25,8 @@ body {
   width: 302px;
   height: 302px;
   border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .Equilibrium-Text h1 {
@@ -34,6 +36,9 @@ body {
   line-height: 27.72px;
   letter-spacing: 1px;
   color: #ffffff;
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 24px;
 }
 
 .Equilibrium-Text p {
@@ -43,17 +48,21 @@ body {
   line-height: 26px;
   letter-spacing: 1px;
   color: #8bacd9;
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 24px;
 }
 
 .Etherium-Clock {
+  margin-bottom: 24px;
 }
 
 .Etherium-Image {
   width: 11px;
   height: 18px;
   color: #00fff8;
-  display: inline;
-  a
+  display: inline-block;
+  margin-left: 24px;
 }
 
 .Etherium-Text {
@@ -63,14 +72,16 @@ body {
   line-height: 20.16px;
   letter-spacing: 1px;
   color: #00fff8;
-  display: inline;
+  display: inline-block;
+  margin-right: 45px;
 }
 
 .Clock-Image {
   width: 16px;
   height: 16px;
   color: #8bacd9;
-  display: inline;
+  display: inline-block;
+  margin-left: 45px;
 }
 
 .Clock-Text {
@@ -80,35 +91,32 @@ body {
   line-height: 20.16px;
   letter-spacing: 1px;
   color: #8bacd9;
-  display: inline;
+  display: inline-block;
+  margin-right: 24px;
 }
 
 .line {
-  background-color: #2E405A;
+  background-color: #2e405a;
   width: 302px;
   height: 1px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-
-
 .Author-Image img {
   width: 33px;
   height: 33px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   display: inline-block;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
-.Footer-Text p {
+.Footer-Text {
   font-family: Outfit;
   font-weight: 400;
   font-size: 16px;
   line-height: 20.16px;
   letter-spacing: 1px;
   display: inline-block;
-  position: absolute;
+  text-align: right;
 }
-
-
