@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+@media screen and (min-width: 480px) {
+  .Container {
+    width: 327px;
+    height: 543px;
+    border-radius: 15px;
+    background-color: #15263f;
+    display: block;
+  }
+}
+
 body {
   width: 1440px;
   height: 900px;
@@ -17,16 +27,38 @@ body {
   height: 596px;
   border-radius: 15px;
   background-color: #15263f;
-  text-align: center;
   display: block;
+}
+
+.Container a {
+  text-decoration: none;
 }
 
 .NFT-Image {
   width: 302px;
   height: 302px;
   border-radius: 8px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.NFT-View-Link:hover .NFT-View {
+  opacity: 1;
+}
+
+.NFT-View-Link:hover .NFT-image {
+  background-color: #00fff8;
+}
+
+.NFT-View {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  top: 303px;
+  left: 696px;
+  position: absolute;
+  opacity: 0;
 }
 
 .Equilibrium-Text h1 {
@@ -37,8 +69,8 @@ body {
   letter-spacing: 1px;
   color: #ffffff;
   text-align: left;
-  margin-left: 24px;
-  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .Equilibrium-Text p {
@@ -49,12 +81,12 @@ body {
   letter-spacing: 1px;
   color: #8bacd9;
   text-align: left;
-  margin-left: 24px;
-  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .Etherium-Clock {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .Etherium-Image {
@@ -101,22 +133,44 @@ body {
   height: 1px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 10px;
 }
 
-.Author-Image img {
+.Footer-Content {
+  width: 400px;
+  height: 100px;
+  text-align: left;
+}
+
+.Author-Image {
   width: 33px;
   height: 33px;
   border: 1px solid #ffffff;
-  display: inline-block;
   border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
-.Footer-Text {
+.Footer-Text p {
   font-family: Outfit;
   font-weight: 400;
   font-size: 16px;
   line-height: 20.16px;
   letter-spacing: 1px;
   display: inline-block;
-  text-align: right;
+  margin-left: 70px;
+  margin-top: 12px;
+  color: #8bacd9;
+}
+
+.Footer-Text a {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: #ffffff;
 }
